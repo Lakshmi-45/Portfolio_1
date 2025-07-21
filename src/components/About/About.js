@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import resumeHere from '../../assets/resume/LAKSHMI_KAR_PATHAK_SDE-1.pdf'
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
             <li><strong>Age:</strong> 23</li>
             <li><strong>From:</strong> Varanasi, India</li>
           </ul>
-          <a href="/resume.pdf" className="btn-download" download>Download CV</a>
+          <a href={resumeHere} className="btn-download" download>Download CV</a>
         </div>
       </div>
 
