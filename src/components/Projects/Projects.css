@@ -1,0 +1,118 @@
+/* .projects-section {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+@media (prefers-color-scheme: dark) {
+  .projects-section {
+    background-color: #1f2937;
+    color: white;
+  }
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .project-card {
+    background-color: #374151;
+  }
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+} */
+
+
+.projects-section {
+  margin-left: 150px; 
+  padding: 2rem;
+  background-color: #2f353c;
+  color: #fff;
+  text-align: center;
+}
+
+.projects-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  width: 80px;
+  height: 3px;
+  background-color: #00ffae;
+  margin: 0 auto 2rem;
+}
+
+.projects-tabs span {
+  margin: 0 1rem;
+  cursor: pointer;
+  color: #ccc;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.projects-tabs .active {
+  color: #00ffae;
+  border-bottom: 2px solid #00ffae;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.project-card:hover .overlay {
+  transform: translateY(0);
+}
