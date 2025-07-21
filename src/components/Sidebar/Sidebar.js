@@ -7,7 +7,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="profile-section">
         <img src={profileImg} alt="Profile" className="profile-img" />
-        <h2 className="name">Prashant Aditya</h2>
+        <h2 className="name">Lakshmi Kar Pathak</h2>
       </div>
       <nav className="nav-links">
         <a href="#hero" className="active">Home</a>
