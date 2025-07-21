@@ -16,7 +16,7 @@ const Sidebar = () => {
         <a href="#projects">Portfolio</a>
         <a href="#resume">Resume</a>
         {/* <a href="#testimonials">Testimonial</a> */}
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact Here</a>
       </nav>
       <div className="social-icons">
         <i className="fab fa-facebook"></i>
