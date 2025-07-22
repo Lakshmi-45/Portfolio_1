@@ -12,7 +12,7 @@ const allProjects = [
   {
     title: "Tata Mutual Fund App",
     category: "Voice",
-    image: tataFundImg, // Replace with your image path
+    image: tataFundImg,
     description: "AI-driven voice investment platform with VAD and KYC workflow.",
   },
   {

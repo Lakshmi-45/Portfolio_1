@@ -3,7 +3,6 @@ import './Contact.css';
 
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import { Mail, Phone, Printer } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -50,23 +49,30 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="contact-info">
-          <h3 className="section-heading">ADDRESS</h3>
-          <p>4th Floor, Plot No.22,</p>
-          <p>145 Murphy Canyon Rd.</p>
-          <p>San Diego CA 2028</p>
-          <div className="contact-details">
-            <p><Phone size={18} className="icon" /> (060) 444 434 444</p>
-            <p><Printer size={18} className="icon" /> (060) 555 545 555</p>
-            <p><Mail size={18} className="icon" /> chat@simone.com</p>
-          </div>
+           <h3 className="section-here">PROFILES</h3>
+              <div className="profile-links">
+                <a href="https://leetcode.com/u/lakshmi-9839/" target="_blank" rel="noopener noreferrer">
+                  <i className="fas fa-code"></i> LeetCode
+                </a>
+                <a href="https://codeforces.com/profile/ritika_pathak_09" target="_blank" rel="noopener noreferrer">
+                  <i className="fas fa-bolt"></i> Codeforces
+                </a>
+                <a href="https://www.codechef.com/users/lakshmi_543" target="_blank" rel="noopener noreferrer">
+                  <i className="fas fa-utensils"></i> CodeChef
+                </a>
+              </div>
           <h3 className="section-heading">FOLLOW ME</h3>
-          <div className="social-icons">
-            <i className="fab fa-dribbble" />
-            <i className="fab fa-twitter" />
-            <i className="fab fa-facebook-f" />
-            <i className="fab fa-google" />
-            <i className="fab fa-github" />
-          </div>
+            <div className="social-icons">
+                <a href="https://www.linkedin.com/in/lakshmi-kar-pathak-646190209/" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              <a href="https://www.instagram.com/lakshmi.pathak.503?utm_source=qr&igsh=d3kxdWQyY3hhd24=" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram" />
+              </a>
+              <a href="https://www.facebook.com/share/1HzizKmmDi/" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f" />
+              </a>
+            </div>
         </div>
 
         <div className="contact-form-wrapper">

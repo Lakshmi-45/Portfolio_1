@@ -42,7 +42,7 @@ const Resume = () =>{
           <h3>My Experience</h3>
 
           <div className="resume-item">
-            <span className="year">June 2024 - Present</span>
+            <span className="year">Feb 2025 - Jul 2025</span>
             <h4>Software Engineer</h4>
             <p>Visioapps Technology</p>
             <ul>
@@ -65,7 +65,7 @@ const Resume = () =>{
           </div>
 
           <div className="resume-item">
-            <span className="year">May 2023 - July 2023</span>
+            <span className="year">May 2023 - Jul 2023</span>
             <h4>Software Developer Intern</h4>
             <p>TechCospace Technologies</p>
             <ul>
@@ -75,24 +75,6 @@ const Resume = () =>{
               <li>Designed newsletter subscription system to boost retention</li>
             </ul>
           </div>
-
-          {/* <div className="resume-item">
-            <span className="year">Aug 2023 - Oct 2023</span>
-            <h4>Foodie (Project)</h4>
-            <ul>
-              <li>JWT-based secure authentication, dynamic cart with React</li>
-              <li>Optimized checkout and navigation experience</li>
-            </ul>
-          </div>
-
-          <div className="resume-item">
-            <span className="year">Sep 2022 - Nov 2022</span>
-            <h4>Chatter-Box (Project)</h4>
-            <ul>
-              <li>Real-time messaging app with MERN stack and Socket.IO</li>
-              <li>Optimized MongoDB for consistent concurrent sessions</li>
-            </ul>
-          </div> */}
         </div>
       </div>
 
@@ -100,30 +82,27 @@ const Resume = () =>{
         <h3>My Skills</h3>
         <div className="skill">
           <span>HTML/CSS</span>
-          <span>95%</span>
           <div className="progress-bar"><div style={{ width: "95%" }} /></div>
         </div>
         <div className="skill">
           <span>JavaScript</span>
-          <span>80%</span>
-          <div className="progress-bar"><div style={{ width: "80%" }} /></div>
+          <div className="progress-bar"><div style={{ width: "90%" }} /></div>
         </div>
         <div className="skill">
           <span>React JS</span>
-          <span>70%</span>
-          <div className="progress-bar"><div style={{ width: "70%" }} /></div>
+          <div className="progress-bar"><div style={{ width: "88%" }} /></div>
         </div>
         <div className="skill">
           <span>Angular</span>
-          <div className="progress-bar"><div style={{ width: "60%" }} /></div>
+          <div className="progress-bar"><div style={{ width: "88%" }} /></div>
         </div>
         <div className="skill">
           <span>Bootstrap</span>
-          <div className="progress-bar"><div style={{ width: "99%" }} /></div>
+          <div className="progress-bar"><div style={{ width: "95%" }} /></div>
         </div>
         <div className="skill">
           <span>Web Design</span>
-          <div className="progress-bar"><div style={{ width: "65%" }} /></div>
+          <div className="progress-bar"><div style={{ width: "88%" }} /></div>
         </div>
       </div>
     </section>

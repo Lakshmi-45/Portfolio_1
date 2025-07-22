@@ -4,14 +4,6 @@ import profilePic from '../../assets/images/girl.jpeg'
 
 const Hero = () => {
   return (
-    // <section className="hero-section">
-    //   <div className="hero-content">
-    //     <h1 className="hero-title">Hi, I'm a Software Engineer</h1>
-    //     <p className="hero-subtitle">Building modern web experiences with React & Node.js</p>
-    //   </div>
-    // </section>
-
-
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-image">
@@ -20,10 +12,12 @@ const Hero = () => {
         </div>
         <div className="hero-content">
           <h1 className="hero-title">Hi, I'm a Software Engineer</h1>
-          <p className="hero-subtitle">Building modern web experiences with React & Node.js</p>
+          <p className="hero-subtitle">Building modern, scalable web experiences with React, Angular, Node.js, and clean UI/UX design</p>
           <div className="hero-tech">
             <span>🛠 React</span>
             <span>⚙️ Node.js</span>
+            <span>🧩 Angular</span>
+            <span>📜 JavaScript</span>
             <span>🌐 TypeScript</span>
             <span>🚀 MongoDB</span>
           </div>
@@ -32,8 +26,6 @@ const Hero = () => {
             <a href="#contact" className="btn outline">Contact Me</a>
           </div>
           <div className="hero-socials">
-            <a href="https://github.com/lakshmi-543" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/lakshmi-kar-pathak-646190209/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>

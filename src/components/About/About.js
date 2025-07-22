@@ -17,13 +17,10 @@ const About = () => {
             I'm <span className="highlight">Lakshmi Kar Pathak</span>, a Software Engineer
           </h3>
           <p>
-            B.Tech in Civil Engineering from IIT (BHU) Varanasi with a CGPA of 8.49. Passionate
-            about software development, I specialize in building scalable web applications using
-            React, Node.js, and MySQL.
+           I specialize in building AI-driven and scalable web applications using React, Angular, Node.js, and MySQL. With hands-on experience in voice-controlled apps, real-time messaging systems, and secure onboarding flows, I focus on creating seamless user experiences.
           </p>
           <p>
-            I focus on delivering clean and efficient solutions within time and budget. I enjoy
-            building meaningful digital experiences for real-world problems.
+           Passionate about solving real-world problems through clean, efficient code, I aim to deliver impactful digital solutions that are both reliable and user-friendly.
           </p>
         </div>
 
@@ -32,7 +29,7 @@ const About = () => {
             <li><strong>Name:</strong> Lakshmi Kar Pathak</li>
             <li><strong>Email:</strong> <a href="mailto:lakshmi@example.com">lakshmikarpathak369@gmail.com</a></li>
             <li><strong>Age:</strong> 23</li>
-            <li><strong>From:</strong> Varanasi, India</li>
+            <li><strong>From:</strong> Gorakhpur, India</li>
           </ul>
           <a href={resumeHere} className="btn-download" download>Download CV</a>
         </div>
@@ -41,8 +38,6 @@ const About = () => {
       <div className="about-stats">
         <div><h3>1+</h3><p>Years Experience</p></div>
         <div><h3>6+</h3><p>Projects Done</p></div>
-        {/* <div><h3>15+</h3><p>Happy Clients</p></div>
-        <div><h3>5</h3><p>Get Awards</p></div> */}
       </div>
     </section>
     </div>
